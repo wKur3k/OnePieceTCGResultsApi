@@ -1,6 +1,0 @@
-@OnePieceTCGResultsApi_HostAddress = http://localhost:5096
-
-GET {{OnePieceTCGResultsApi_HostAddress}}/weatherforecast/
-Accept: application/json
-
-###
