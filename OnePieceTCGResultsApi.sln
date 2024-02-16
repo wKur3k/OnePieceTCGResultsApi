@@ -2,6 +2,8 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePieceTCGResultsApi", "OnePieceTCGResultsApi\OnePieceTCGResultsApi.csproj", "{B95F28A2-728C-4E11-AD22-024F8E03E6A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnePieceTCGResultsApiTests", "OnePieceTCGResultsApiTests\OnePieceTCGResultsApiTests.csproj", "{C77D9ED2-20B8-4C19-9C51-442C8EF358DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -12,5 +14,9 @@ Global
 		{B95F28A2-728C-4E11-AD22-024F8E03E6A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B95F28A2-728C-4E11-AD22-024F8E03E6A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B95F28A2-728C-4E11-AD22-024F8E03E6A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C77D9ED2-20B8-4C19-9C51-442C8EF358DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C77D9ED2-20B8-4C19-9C51-442C8EF358DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C77D9ED2-20B8-4C19-9C51-442C8EF358DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C77D9ED2-20B8-4C19-9C51-442C8EF358DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
