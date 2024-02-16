@@ -32,7 +32,7 @@ public class ErrorHandlingMiddleware : IMiddleware
     
     private async Task HandleExceptionAsync(HttpContext context, Exception ex, HttpStatusCode code)
     {
-        context.Response.StatusCode = (int)code;
+        context.Response.StatusCode = (int)code;    
         context.Response.ContentType = "application/json";
         await context.Response.WriteAsync(new ErrorDetails()
         {
